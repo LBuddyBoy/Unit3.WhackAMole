@@ -110,7 +110,7 @@ export function useGame() {
   const context = useContext(GameContext);
 
   if (!context) {
-    throw Error("useGame msut be used within a CartContext Provider.");
+    throw Error("useGame msut be used within a GameContext Provider.");
   }
 
   return context;
